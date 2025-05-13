@@ -27,9 +27,8 @@ A minimal, console-based banking system in Python with the following features:
 simple_banking/
 ├── banking_system.py       # Core classes & auto-persistence logic
 ├── cli.py   # Optional command-line interface
-├── test_banking_system.py  # pytest suite
 └── tests/
-    └── 
+    └── test_banking_system.py  # pytest suite
 ```
 
 
@@ -62,7 +61,3 @@ python cli.py
 ```bash
 pytest tests/
 ```
-
-**Important notes about pytest**
-
-Depends on the IDE and venv setup. The `bank_test.py` file might need to be placed inside the `tests` folder to run properly.
