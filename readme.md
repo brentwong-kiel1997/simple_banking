@@ -28,7 +28,8 @@ simple_banking/
 ├── banking_system.py       # Core classes & auto-persistence logic
 ├── cli.py   # Optional command-line interface
 └── tests/
-    └── test_banking_system.py  # pytest suite
+    └── bank_test.py  # pytest suite
+    └── init.py
 ```
 
 
