@@ -65,4 +65,4 @@ pytest tests/
 
 **Important notes about pytest**
 
-Depends on the IDE and venv setup environment. The `bank_test.py` file might need to be placed inside the `tests` folder to run properly.
+Depends on the IDE and venv setup. The `bank_test.py` file might need to be placed inside the `tests` folder to run properly.
