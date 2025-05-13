@@ -21,15 +21,48 @@ A minimal, console-based banking system in Python with the following features:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```plaintext
 simple_banking/
 ├── banking_system.py       # Core classes & auto-persistence logic
-├── cli.py                  # Optional command-line interface
+├── cli.py   # Optional command-line interface
+├── test_banking_system.py  # pytest suite
 └── tests/
-    └── test_banking_system.py  # pytest suite
+    └── 
 ```
 
 
 
+## Setup & Usage
+
+### 1. Clone the repository:
+```bash 
+git clone https://github.com/brentwong-kiel1997/simple_banking
+cd simple_banking
+``` 
+
+### 2. create a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the banking system
+```bash
+python cli.py
+```
+
+### 5. Run tests
+```bash
+pytest tests/
+```
+
+**Important notes about pytest**
+
+Depends on the IDE and venv setup environment. The `bank_test.py` file might need to be placed inside the `tests` folder to run properly.
